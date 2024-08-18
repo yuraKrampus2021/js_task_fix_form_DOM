@@ -1,0 +1,2 @@
+var e=document.querySelectorAll(".field-text");function t(e){return e.replace(/([a-z])([A-Z])/g,"$1 $2").replace(/([A-Z])([A-Z][a-z])/g,"$1 $2")}!function(e){Array.from(e).forEach(function(e){var r=document.createElement("label");r.className="field-label",r.textContent=t(e.name),e.before(r)})}(e),function(e){Array.from(e).forEach(function(e){var r;e.setAttribute("placeholder","".concat((r=t(e.name).toLowerCase()).charAt(0).toUpperCase()+r.slice(1)))})}(e);
+//# sourceMappingURL=index.5d38b44e.js.map
